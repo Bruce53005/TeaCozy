@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+header, .main, .contact, footer{
+  display: flex;
+  justify-content: space-between;
+  font-family: Helvetica ;
+  font-size: 22px;
+  color: #f9f9f9;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+    border-bottom: 1px solid #f9f9f9;
+}
+nav{
+  margin-right: 10px;
+
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav li{
+  margin-left: 25px;
+}
+a, hr{
+  color: seashell;
+}
+.logo{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    }
