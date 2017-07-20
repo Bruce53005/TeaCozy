@@ -1,20 +1,26 @@
 body{
   margin: 0;
-  color: white;
+  color: #f9f9f9;
   background-color: black;
-}
-header, .main, .contact, footer{
-  display: flex;
-  justify-content: space-between;
   font-family: Helvetica ;
   font-size: 22px;
+}
+img{
+  height: 50px;
+}
+header, main .locations, footer{
+  display: flex;
+  width: 100%;
   color: #f9f9f9;
   background-color: black;
   opacity: 0.9;
   text-align: center;
 }
 header{
+    justify-content: space-between;
+    position: fixed;
     border-bottom: 1px solid #f9f9f9;
+    top: 0;
 }
 nav{
   margin-right: 10px;
@@ -29,13 +35,25 @@ nav li{
   margin-left: 25px;
 }
 a, hr{
-  color: seashell;
+  color:  #f9f9f9;
 }
 .logo{
     display: flex;
     margin-left: 10px;
     align-items: center;
 }
-.logo img{
-    height: 50px;
-    }
+/* Main styling*/
+.potpourri{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background: url(../images/img-mission-background.jpg);
+}
+.banner{
+  background-color: black;
+  text-align: center;
+}
